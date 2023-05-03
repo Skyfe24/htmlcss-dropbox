@@ -129,3 +129,18 @@ h2{
   border-radius: 50%;
   display: inline-block;
 }
+.plan{
+flex-basis: 33%;
+margin-top: 30px;
+height: 500px;
+background-color: aqua;
+border: solid, red;
+border-width: 0 1px;
+}
+.abbonamento{
+  background-color: aqua;
+  border: solid, red;
+  height: 160px;
+  text-align: center;
+  margin-top: 30px;
+}
