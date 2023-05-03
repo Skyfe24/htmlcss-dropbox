@@ -1,24 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-  }
-  header{
-    height: 180px;
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    z-index: 2;
-    
-  }
-  .logo{
-    max-width: 120px;
-    height: auto;
-  }
-  a{
-    text-decoration: none;
-  }
-  flex{
-    display: flex;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(142, 218, 42);
+  position: 
+  z-index: 2;
+}
+.logo {
+  max-width: 120px;
+  height: auto;
+}
+ul{
+  list-style-type: none; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  list-style-type: none 
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+
+}
+.wrapper{
+  align-items: center;
+
+}
+li {
+  font-size: 15px;
+  vertical-align: middle;
+  margin-left: 10px;
+  text-align: center;
+  padding: 7px;
+}
+.left-bar {align-items: center;
+}
+.right-bar {
+  align-items: center;
+}
+.big-container{
+  background-color: aqua;
+  height: 500px;
+}
+h1{
+  color: black;
+  text-align: center;
+  font-size: 80px;
+}
+.JUMBO{
+  height: 100px;
+}
+.MENU{
+  height: 100px;
+  background-color: white;
+}
