@@ -58,16 +58,13 @@ li {
 }
 .big-container{
   background-color: aqua;
-  height: 500px;
 }
 h1{
   color: black;
   text-align: center;
   font-size: 80px;
 }
-.JUMBO{
-  height: 100px;
-}
+
 .text1{
   flex-basis: 40%;
   margin-bottom: 25px;
@@ -76,6 +73,5 @@ h1{
   flex-basis: 60%;
 }
 .MENU{
-  height: 100px;
   background-color: white;
 }
