@@ -44,7 +44,7 @@ a {
 .flex2{
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 .wrapper{
@@ -100,8 +100,8 @@ h2{
   background-color: white;
 }
 .container{
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .checkbox{
@@ -143,4 +143,23 @@ border-width: 0 1px;
   height: 160px;
   text-align: center;
   margin-top: 30px;
+}
+.partnerimage{
+  flex-basis: 80%;
+  min-height: 200px;
+  margin-right: 400px;
+  background-image: url(./img/partner.png)
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cards{
+  border: dashed red;
+  width: 100px;
+  min-height: 200px;
+}
+.wrap{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
