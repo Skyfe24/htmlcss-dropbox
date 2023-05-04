@@ -9,6 +9,12 @@ padding: 10px;
 color: white;
 background-color: rgb(71, 128, 226);
 }
+.btn-grey{
+  padding: 10px;
+color: rgb(0, 0, 0);
+background-color: rgb(241, 243, 247);
+flex-basis: 50%;
+}
 .white{
   color: white;
 }
@@ -169,6 +175,12 @@ border-width: 0 1px;
   text-align: left;
   margin-top: 80px;
 }
+.leftelement{
+  margin-right: 30px;
+  max-width: 400px;
+
+}
+
 .link{
   text-decoration: underline;
   color: rgb(24, 103, 230);
@@ -202,4 +214,7 @@ border-width: 0 1px;
   border: dashed red;
   flex-basis: calc(100% / 2);
   min-height: 200px;
+}
+.blue{
+  background-color: rgb(135, 215, 247);
 }
