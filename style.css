@@ -177,7 +177,7 @@ border-width: 0 1px;
 }
 .leftelement{
   margin-right: 30px;
-  max-width: 400px;
+  text-align: left;
 
 }
 
@@ -217,4 +217,21 @@ border-width: 0 1px;
 }
 .blue{
   background-color: rgb(135, 215, 247);
+}
+.separator-flex{
+  width: 100%;
+  border-top: 2px lightgray solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 50px;
+}
+.Domande{
+  
+}
+.fa-solid{
+padding-bottom: 15px;
+cursor: pointer;
 }
