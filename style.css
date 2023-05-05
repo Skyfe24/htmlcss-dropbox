@@ -274,3 +274,66 @@ li{
 .fa-solid{
 font-size: 15px;
 }
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+#sponsors img{
+  width: 70%;
+  height: auto;
+  filter: invert(100%);
+}
+
+.aqua{
+  background-color: rgb(95, 205, 152);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgb(146, 199, 221);
+}
+.purple{
+  background-color: rgb(100, 2, 49);
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.cyan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0093ce;
+}
+.red{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #db1b1b;
+  
+}
+.crimson{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #820a0a;
+}
+.light-blue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+}
+.bluey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
