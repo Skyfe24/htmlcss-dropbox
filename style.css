@@ -22,14 +22,14 @@ header {
   height: 50px;
   width: 100%;
   background-color: rgb(142, 218, 42);
-  position: 
+  position: sticky;
   z-index: 2;
 }
 .logo {
   max-width: 120px;
   height: auto;
 }
-ul{
+.ul-flex{
   list-style-type: none; 
   display: flex;
   flex-direction: row;
@@ -46,7 +46,7 @@ a {
   align-items: center;
 
 }
-li {
+.li-flex{
   font-size: 15px;
   vertical-align: middle;
   margin-left: 10px;
@@ -70,6 +70,10 @@ h1{
 }
 h2{
   padding-top: 40px;
+}
+h3{
+  margin-bottom: 25px;
+  margin-top: 100px;
 }
 
 .text1{
@@ -153,7 +157,9 @@ border-width: 0 1px;
   justify-content: center;
   align-items: center;
 }
-
+.black-bg{
+  background-color: black;
+}
 .flex {
   display: flex;
   flex-direction: row;
@@ -228,10 +234,43 @@ border-width: 0 1px;
   margin-top: 30px;
   padding-top: 50px;
 }
-.Domande{
-  
-}
+
 .fa-solid{
 padding-bottom: 15px;
 cursor: pointer;
+}
+footer{
+  background-color: black;
+  color: white;
+  
+  margin-top: 100px;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  margin-right: 300px;
+  gap: 30px 20px;
+}
+
+ul{
+  list-style-type: none;
+  margin-right: 50px;
+  
+}
+li{
+  margin-top: 10px;
+  cursor: pointer;
+}
+.finale{
+  margin-top: 100px;
+  margin-right: 1130px;
+  border-top: 3px solid white;
+  margin-left: 250px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.fa-solid{
+font-size: 15px;
 }
