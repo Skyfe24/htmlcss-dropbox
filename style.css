@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+.padding{
+padding-bottom: 50px;
+padding-top: 50px;
+}
 .btn-blue{
 padding: 10px;
 color: white;
@@ -45,23 +49,23 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  vertical-align: middle;
 }
 a {
   text-decoration: none;
   list-style-type: none 
 }
-
-.wrapper{
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-
 }
+
 .li-flex{
   font-size: 15px;
   vertical-align: middle;
-  margin-left: 10px;
-  text-align: center;
-  padding: 7px;
+  margin-left: 30px;
+  padding: 20px;
 }
 .left-bar {align-items: center;
 }
@@ -101,6 +105,7 @@ h5{
 .text1{
   flex-basis: 40%;
   margin-bottom: 25px;
+  padding-bottom: 50px;
   margin-left: 400px;
 }
 .text3{
@@ -200,12 +205,7 @@ border: 3px solid grey;
 .black-bg{
   background-color: black;
 }
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .flex-wrap{
   display: flex;
   flex-direction: row;
@@ -311,9 +311,9 @@ li{
 }
 .finale{
   margin-top: 100px;
-  margin-right: 1130px;
+  margin-right: 1320px;
   border-top: 3px solid white;
-  margin-left: 250px;
+  margin-left: 440px;
   padding-top: 30px;
   padding-bottom: 30px;
   cursor: pointer;
