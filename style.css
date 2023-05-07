@@ -67,9 +67,13 @@ a {
   margin-left: 30px;
   padding: 20px;
 }
-.left-bar {align-items: center;
+.flex-left-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.right-bar {
+.flex-right-bar {
+  display: flex;
   align-items: center;
 }
 .big-container{
