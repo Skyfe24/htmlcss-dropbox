@@ -9,6 +9,12 @@ padding: 10px;
 color: white;
 background-color: rgb(71, 128, 226);
 }
+.btn-white{
+  padding: 10px;
+  color: rgb(103, 99, 99);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  }
 .center{
 margin-left: 10px;
 text-align: left;
@@ -82,6 +88,7 @@ h3{
 h4{
   font-size: 20px;
   margin-top: 30px;
+  margin-bottom: 80px;
 }
 h5{
   padding-top: 10px;
@@ -92,9 +99,24 @@ h5{
   margin-top: 30px;
 }
 .text1{
-  flex-basis: 20%;
+  flex-basis: 40%;
   margin-bottom: 25px;
   margin-left: 400px;
+}
+.text3{
+  flex-basis: 20%;
+  margin-bottom: 25px;
+  padding-bottom: 120px;
+}
+.partnertext{
+  margin-bottom: 30px;
+}
+.partnerimage{
+  flex-basis: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 500px;
+  margin-right: 80px;
 }
 .jumboimage{
   flex-basis: 80%;
@@ -161,13 +183,13 @@ border: 3px solid grey;
   text-align: center;
   margin-top: 30px;
 }
-.partnerimage{
-  flex-basis: 80%;
-  min-height: 200px;
-  margin-right: 400px;
-  background-image: url(./img/partner.png)
-  background-size: contain;
-  background-repeat: no-repeat;
+.flex4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .flex2{
   display: flex;
