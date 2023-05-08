@@ -203,7 +203,7 @@ h5{
 .plan{
 flex-basis: 33%;
 margin-top: 30px;
-height: auto
+height: 1000px;
 text-align: center;
 margin: 15px;
 border: 3px solid grey;
@@ -428,5 +428,11 @@ img{
   width: 50px;
   height: 1px;
   border: 1px solid grey;
+  margin-top: 20px;
+}
+.space{
+  margin-top: 45px;
+}
+.space2{
   margin-top: 20px;
 }
