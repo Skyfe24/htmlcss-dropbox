@@ -18,6 +18,7 @@
   padding-right: 10px;
   color: white;
   background-color: rgb(71, 128, 226);
+  cursor: pointer;
 }
 .enterprisebutton {
   color: white;
@@ -28,6 +29,7 @@
   padding-right: 37px;
   margin-bottom: 10px;
   margin-right: 50px;
+  cursor: pointer;
 }
 .btn-blue-special {
   margin-top: 30px;
@@ -39,11 +41,13 @@
   color: white;
   background-color: rgb(71, 128, 226);
   margin-left: 13px;
+  cursor: pointer;
 }
 .btn-blue {
   padding-right: 66px;
   padding-top: 10px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn-white {
@@ -115,6 +119,11 @@ a {
 .big-container {
   background-color: rgb(135, 215, 247);
 }
+.jumbowrap{
+  margin-bottom: -63px;
+  height: 400px;
+  padding-top: 20px;
+}
 h1 {
   color: black;
   text-align: center;
@@ -165,18 +174,25 @@ h5 {
 }
 .jumboimage {
   flex-basis: 80%;
-  min-height: 300px;
+  min-height: 400px;
   background-image: url(./img/jumbo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.annulla,
 .fa-solid {
   margin-top: 20px;
 }
 .fa-solid {
   font-size: 40px;
+}
+.fa-arrow-down{
+padding-top: 30px;
+}
+.fa-arrow-down::before {
+  content: "\f063";
+  position: absolute;
+  font-size: 45px;
 }
 .MENU {
   background-color: white;
@@ -203,6 +219,7 @@ h5 {
   border: solid blue;
   border-radius: 50%;
   display: inline-block;
+  cursor: pointer;
 }
 .dot2 {
   height: 25px;
@@ -210,6 +227,7 @@ h5 {
   border: groove black;
   border-radius: 50%;
   display: inline-block;
+  cursor: pointer;
 }
 .plan {
   flex-basis: 33%;
@@ -446,4 +464,7 @@ img {
 }
 .space2 {
   margin-top: 20px;
+}
+.space3{
+  margin-bottom: 45px
 }
