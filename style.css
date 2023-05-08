@@ -4,12 +4,16 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
 .logo {
   padding-left: 10px;
 }
 .padding {
   padding-bottom: 50px;
   padding-top: 50px;
+}
+.button-blue:hover {
+  border: 2px solid #e4dddd;
 }
 .button-blue {
   padding-top: 4px;
@@ -19,6 +23,7 @@
   color: white;
   background-color: rgb(71, 128, 226);
   cursor: pointer;
+  border: none;
 }
 .enterprisebutton {
   color: white;
@@ -65,6 +70,7 @@
   color: rgb(0, 0, 0);
   background-color: rgb(241, 243, 247);
   flex-basis: 50%;
+  cursor: pointer;
 }
 .white {
   color: white;
@@ -334,6 +340,14 @@ padding-top: 30px;
 .blocks {
   flex-basis: calc(100% / 2);
   min-height: 200px;
+}
+.blocks:hover {
+  border: 2px solid #e4dddd;
+  cursor: pointer;
+}
+.designit:hover {
+  border: 2px solid #e4dddd;
+  cursor: pointer;
 }
 .blue {
   background-color: rgb(135, 215, 247);
